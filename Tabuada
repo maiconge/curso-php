@@ -1,0 +1,8 @@
+<?php
+
+$multiplicador = 3;
+
+for ($contador = 1; $contador < 10; $contador++) {
+    $resultado = $multiplicador * $contador;
+    echo "$multiplicador X $contador = $resultado" . PHP_EOL;
+}
